@@ -1,0 +1,16 @@
+.form-control
+{
+    border: none;
+    box-shadow: none !important;
+    border-bottom: 2px solid slategray;
+}
+.btn
+{
+   
+    box-shadow: none;
+
+}
+.deleteBtn
+{
+   margin-left: 450px;
+}
