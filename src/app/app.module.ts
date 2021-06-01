@@ -45,6 +45,4 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 })
 export class AppModule {
 
-  
-
  }

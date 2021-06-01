@@ -9,7 +9,6 @@ import { Product } from '../Models/product.model';
   styleUrls: ['./televisions.component.css']
 })
 export class TelevisionsComponent implements OnInit {
-
   televisions:Product[]=[];
 
   // Inject Object of data service class

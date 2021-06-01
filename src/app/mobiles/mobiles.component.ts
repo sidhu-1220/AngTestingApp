@@ -10,7 +10,6 @@ import { Product } from '../Models/product.model';
 export class MobilesComponent implements OnInit {
 
   mobiles:Product[]=[];
-
   // Inject Object of data service class
   constructor(private dsObj:DataService){
   }

@@ -19,5 +19,4 @@ export class BikesComponent implements OnInit {
     // obj initialization logic
     this.bikes=this.dsObj.getMobilesData();
   }
-
 }

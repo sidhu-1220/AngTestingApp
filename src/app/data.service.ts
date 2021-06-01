@@ -150,18 +150,22 @@ export class DataService {
         
         ];
 
+
     // Mobile Calling data
-    getMobilesData():Product[]{
+    getMobilesData():Product[]
+    {
       return this.mobiles;
     }
 
     // Bikes calling Data
-    getBikesData():Product[]{
+    getBikesData():Product[]
+    {
       return this.bikes;
     }
 
     // Televisions calling data
-    getTelivisionData():Product[]{
+    getTelivisionData():Product[]
+    {
       return this.telivisions;
     }
     
