@@ -1,0 +1,42 @@
+ [
+  {
+    "productTitle": "Royal Enfield Classic 350",
+    "description": "Royal Enfield",
+    "productImage": "https://media.zigcdn.com/media/model/2021/Feb/royal-enfield-classic-350-dual-channel_600x400.jpg"
+  },
+  {
+    "productTitle": "KTM 125 Duke",
+    "description": "KTM",
+    "productImage": "https://c.ndtvimg.com/2018-12/mv8lerec_ktm-125-duke-first-ride-review_625x300_22_December_18.jpg"
+  },
+  {
+    "productTitle": "Royal Enfield Bullet 350",
+    "description": "Royal Enfield",
+    "productImage": "https://media.zigcdn.com/media/content/2020/Sep/royal_enfield_bullet_350_bs6_price_hiked_once_again-2.jpg"
+  },
+  {
+    "productTitle": "TVS Apache RTR 160 4V",
+    "description": "TVS",
+    "productImage": "https://bd.gaadicdn.com/processedimages/tvs/tvs-apache/640X309/tvs-apache60487e96521ec.jpg"
+  },
+  {
+    "productTitle": "Bajaj Pulsar 125",
+    "description": "Bajaj",
+    "productImage": "https://bd.gaadicdn.com/processedimages/bajaj/pulsar-125/source/pulsar-1255eeb1f3099f0f.jpg"
+  },
+  {
+    "productTitle": "KTM RC 390",
+    "description": "KTM",
+    "productImage": "https://bd.gaadicdn.com/processedimages/ktm/ktm-rc-390/494X300/ktm-rc-3905fd47e21be07d.jpg?tr=w-360"
+  },
+  {
+    "productTitle": "Yamaha YZF R15 V3",
+    "description": "Yamaha",
+    "productImage": "https://bd.gaadicdn.com/processedimages/yamaha/yzf-r15-v3/source/yzf-r15-v35ef09f2bdceb3.jpg"
+  },
+  {
+    "productTitle": "Harley Davidson Street Rob",
+    "description": "Harley Davidson",
+    "productImage": "https://bd.gaadicdn.com/processedimages/harley-davidson/street-rod/494X300/street-rod5e7344d54b2a9.jpg?tr=w-360"
+  }
+]

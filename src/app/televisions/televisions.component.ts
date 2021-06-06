@@ -16,8 +16,15 @@ export class TelevisionsComponent implements OnInit {
   }
 
   ngOnInit(){
-    // obj initialization logic
-    this.televisions=this.dsObj.getMobilesData();
+    this.dsObj.getTelevisionData().subscribe(
+      Televisiondata=>{
+        this.televisions=Televisiondata;
+      },
+      err=>{
+        console.log("err is",err);
+      }
+    )
+
   }
 
 }

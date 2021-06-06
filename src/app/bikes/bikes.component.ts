@@ -16,7 +16,14 @@ export class BikesComponent implements OnInit {
   }
 
   ngOnInit(){
-    // obj initialization logic
-    this.bikes=this.dsObj.getMobilesData();
+    this.dsObj.getBikesData().subscribe(
+      bikesData=>{
+        this.bikes=bikesData;
+      },
+      err=>{
+        console.log("err is",err);
+      }
+    )
+
   }
 }
