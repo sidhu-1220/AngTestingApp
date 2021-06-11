@@ -14,18 +14,18 @@ export class DataService {
   // Mobiles data
   getMobilesData():Observable<Product[]>{
       //http get
-      return this.hc.get<Product[]>("assets/Mobiles.json");
+      return this.hc.get<Product[]>("http://localhost:3000/mobiles");
     }
 
   // Bikes Data
   getBikesData():Observable<Product[]>{
       //http get
-      return this.hc.get<Product[]>("assets/Bikes.json");
+      return this.hc.get<Product[]>("http://localhost:3000/bikes");
     }
   
   // Television Data
   getTelevisionData():Observable<Product[]>{
       //http get
-      return this.hc.get<Product[]>("assets/Television.json");
+      return this.hc.get<Product[]>("http://localhost:3000/televsion");
     }  
 }

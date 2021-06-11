@@ -1,29 +1,41 @@
-<table class="table text-white text-center">
-    <thead>
-        <tr>
-            <th>UserId</th>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Body</th>
-            
-        </tr>
-    </thead>
+<div class="background" style="margin-bottom: 350px;">
+    <table class="table text-primary text-center">
+        <thead>
+            <tr>
+                <!-- <th>UserId</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Body</th> -->
 
-    <tbody>
-         <tr *ngFor="let postObj of myPosts">
-            <td>{{postObj.userId}}</td>
-            <td>{{postObj.id}}</td>
-            <td>{{postObj.title}}</td>
-            <td>{{postObj.body}}</td>
-        </tr> 
+                <th>ID</th>
+                <!-- <th>Email</th>
+                <th>Profile Pic</th> -->
+                
+            </tr>
+        </thead>
+    
+        <tbody>
+             <!-- <tr *ngFor="let postObj of myPosts">
+                <td>{{postObj.userId}}</td>
+                <td>{{postObj.id}}</td>
+                <td>{{postObj.title}}</td>
+                <td>{{postObj.body}}</td>
+            </tr>  -->
 
-        <!-- <tr *ngFor="let userObj of myUsers.data">
-            <td>{{userObj.id}}</td>
-            <td>{{userObj.email}}</td>
-            <td>{{userObj.first_name}}</td>
-            <td>{{userObj.last_name}}</td>
-            <td><img src={{userObj.avatar}} alt=""></td>
-        </tr> -->
+            <tr *ngFor="let postObj of myPosts">
+                <td>
+                    <button class="btn btn-sm btn-warning"  (click)="onSelectId(postObj.id)"> {{postObj.id}}</button>
+                </td>
+    
+             <!-- <tr *ngFor="let userObj of myUsers.data">
+                <td>
+                    <button class="btn btn-sm btn-warning"  (click)="onSelectId(userObj.id)"> {{userObj.id}}</button>
+                </td> -->
 
-    </tbody>
-</table>
+                <!-- <td>{{userObj.email}}</td>
+                <td><img src={{userObj.avatar}} alt=""></td> -->
+            </tr> 
+    
+        </tbody>
+    </table>
+</div>
